@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 const carrito = JSON.parse(localStorage.getItem(("carrito") ||[]));
 if(carrito) {
@@ -27,26 +26,6 @@ const shoppingCartItemsContainer = document.querySelector(
 );
 
 function addItemToShoppingCart(itemId,itemTitle, itemPrice, itemImage, itemQuantity) {
-=======
-/* Pendiente de resolver 
-setTimeout(function() {
-  console.log("producto añadido correctamente");
-}, 3000);
-*/
-const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
-
-for (let index = 0; index < carrito.length; index++) {
-  const producto = carrito[index];
-  addItemToShoppingCart(
-    producto.title,
-    producto.price,
-    producto.image,
-    producto.quantity
-  );
-}
-
-function addItemToShoppingCart(itemTitle, itemPrice, itemImage, itemQuantity) {
->>>>>>> 7918d8f24fe211e1bc7d1cc6770265997322779a
   const shoppingCartItemsContainer =
     document.getElementById("contenedor-carrito");
 
@@ -54,7 +33,6 @@ function addItemToShoppingCart(itemTitle, itemPrice, itemImage, itemQuantity) {
   const shoppingCartContent = `
     <div class="row shoppingCartItem">
         <div class="col-6">
-<<<<<<< HEAD
             <div class="shopping-cart-item pb-2 pt-3">
                 <img src=${itemImage} class="shopping-cart-image">
                 <h6 class="shopping-cart-item-title text-white shoppingCartItemTitle text-truncate ml-3 mb-0">${itemTitle}</h6>
@@ -62,31 +40,15 @@ function addItemToShoppingCart(itemTitle, itemPrice, itemImage, itemQuantity) {
         </div>
         <div class="col-2">
             <div class="shopping-cart-price pb-2 pt-3">
-=======
-            <div class="shopping-cart-item d-flex align-items-center h-100 border-bottom pb-2 pt-3">
-                <img src=${itemImage} class="shopping-cart-image">
-                <h6 class="shopping-cart-item-title shoppingCartItemTitle text-truncate ml-3 mb-0">${itemTitle}</h6>
-            </div>
-        </div>
-        <div class="col-2">
-            <div class="shopping-cart-price d-flex align-items-center h-100 border-bottom pb-2 pt-3">
->>>>>>> 7918d8f24fe211e1bc7d1cc6770265997322779a
                 <p class="item-price mb-0 shoppingCartItemPrice">${itemPrice}</p>
             </div>
         </div>
         <div class="col-4">
             <div
-<<<<<<< HEAD
                 class="shopping-cart-quantity pb-2 pt-3">
                 <input class="shopping-cart-quantity-input shoppingCartItemQuantity" type="number"
                     value="${itemQuantity}">
                 <button id="${itemId}" class="btn btn-danger buttonDelete" type="button">X</button>
-=======
-                class="shopping-cart-quantity d-flex justify-content-between align-items-center h-100 border-bottom pb-2 pt-3">
-                <input class="shopping-cart-quantity-input shoppingCartItemQuantity" type="number"
-                    value="${itemQuantity}">
-                <button class="btn btn-danger buttonDelete" type="button">X</button>
->>>>>>> 7918d8f24fe211e1bc7d1cc6770265997322779a
             </div>
         </div>
     </div>`;
@@ -106,7 +68,6 @@ function addItemToShoppingCart(itemTitle, itemPrice, itemImage, itemQuantity) {
 
 function removeShoppingCartItem(event) {
   const buttonClicked = event.target;
-<<<<<<< HEAD
   const buttonId = buttonClicked.id
   buttonClicked.closest(".shoppingCartItem").remove();
   const carroActual = JSON.parse(localStorage.getItem(("carrito") ||[]));
@@ -115,9 +76,6 @@ function removeShoppingCartItem(event) {
     const filterItems = carroActual.filter(producto => producto.id !== buttonId)
     localStorage.setItem('carrito', JSON.stringify(filterItems))
   }
-=======
-  buttonClicked.closest(".shoppingCartItem").remove();
->>>>>>> 7918d8f24fe211e1bc7d1cc6770265997322779a
   updateShoppingCartTotal();
 }
 
@@ -148,7 +106,6 @@ function updateShoppingCartTotal() {
     );
     total = total + shoppingCartItemPrice * shoppingCartItemQuantity;
   });
-<<<<<<< HEAD
   shoppingCartTotal.innerHTML = `$${total.toLocaleString('es-CL')}`;
 }
 
@@ -165,7 +122,4 @@ function comprarButtonClicked() {
   shoppingCartItemsContainer.innerHTML = "";
   updateShoppingCartTotal();
 
-=======
-  shoppingCartTotal.innerHTML = `$${total.toFixed()}`;
->>>>>>> 7918d8f24fe211e1bc7d1cc6770265997322779a
 }
