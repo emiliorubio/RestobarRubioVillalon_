@@ -1,0 +1,85 @@
+{
+    "aperitivos": [{
+            "id": 1,
+            "name": "Coctel Sour Secreto Peruano Limon 1L",
+            "price": 4990,
+            "image": "../imagenes/tragos/Coctel-Sour-Secreto-Peruano-Limon-1-Litro-240x240.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Campanario Mango Colado",
+            "price": 6990,
+            "image": "../imagenes/tragos/mango-colada.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Whisky Johnnie Walker Red Label",
+            "price": 12000,
+            "image": "../imagenes/tragos/Whisky-Johnnie-Walker-Red-Label.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Ramazzotti Aperitivo Rosato",
+            "price": 9990,
+            "image": "../imagenes/tragos/Ramazzotti-Aperitivo-Rosato.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Tequila Gran Orendain",
+            "price": 19990,
+            "image": "../imagenes/tragos/Tequila-Gran-Orendain.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Ron Barcelo Añejo",
+            "price": 8500,
+            "image": "../imagenes/tragos/ron-barcelo-anejo.jpg"
+        }
+    ],
+
+
+    "comida": [{
+            "id": 7,
+            "name": "Arroz con sarteado de verduras",
+            "price": 5000,
+            "image": "../imagenes/comidas/arroz-con-sarteado-de-verduras.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Bistec a lo pobre",
+            "price": 4000,
+            "image": "../imagenes/comidas/bistec-a-lo-pobre.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Carbonada",
+            "price": 4000,
+            "image": "../imagenes/comidas/carbonada.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Ensalada",
+            "price": 4000,
+            "image": "../imagenes/comidas/ensalada.jpg"
+        }
+    ],
+    "jugos": [{
+            "id": 11,
+            "name": "Jugo de frutilla",
+            "price": 3000,
+            "image": "../imagenes/jugo-de-frutilla.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Jugo de naranja",
+            "price": 3000,
+            "image": "../imagenes/jugo-de-naranja.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Jugo de piña",
+            "price": 3000,
+            "image": "../imagenes/jugo-de-pina.jpg"
+        }
+    ]
+}

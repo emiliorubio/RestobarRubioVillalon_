@@ -15,6 +15,11 @@ body {
   max-height: 50px;
 
 }
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
   
 .logoCarrito {
   max-width: 40px;
@@ -34,33 +39,34 @@ body {
   padding: 0px 40px;
 }
 
-.paginas a {
-  margin-left: 10px;
-  padding-left: 10px;
-  color: white;
-  text-decoration: none;
-  border-left: 1px solid white;
+
+.carousel-item img { 
+  width: 100%;
+  height: auto;
+
+} 
+
+.rounded {
+  max-width: 500px;
+  max-height: 500px;
 }
 
-a:visited {
-  color: white;
-}
-
-img {
-  width: 400px;
-  height: 400px;
+.item-image {
+  max-width: 250px;
+  max-height: 250px;
 
 }
+.columna {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
 
 .buscador{
   color: white;
 }
 
-.item-image {
-  max-width: 460px;
-  max-height: 460px;
-  border-radius: 17px;
-}
 .item-title {
   color: white;
 }
@@ -116,4 +122,9 @@ svg circle {
 
 .text-center {
   background-color: rgb(161, 148, 148);
-}/*# sourceMappingURL=estilos.css.map */
+}
+@media screen and (max-width: 770px) {
+  .paginas {
+    text-align: center;
+  }
+}

@@ -77,14 +77,7 @@ body {
     color: white;
     padding-right: 50px;
   }
-  
-  .contenedor-mapa {
-    overflow: hidden;
-    padding-bottom: 40.25%;
-    position: relative;
-    height: 0;
-  }
-  
+    
 #error {
   max-width: 800px;
   max-height: 800px;
@@ -150,4 +143,4 @@ body {
     .paginas {
       text-align: center;
     }
-  }/*# sourceMappingURL=contacto.css.map */
+  }
