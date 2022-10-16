@@ -1,4 +1,4 @@
-/*(async() => {
+(async() => {
     const {value: responder}  = await Swal.fire({
 	title:"Bienvenido!",
 	text: 'eres mayor de edad?',
@@ -44,4 +44,4 @@ if (responder === 'Si') {
 }
 
 
-})() */
+})() 
