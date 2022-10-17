@@ -3,37 +3,37 @@
             "id": 1,
             "name": "Coctel Sour Secreto Peruano Limon 1L",
             "price": 4990,
-            "image": "../imagenes/tragos/Coctel-Sour-Secreto-Peruano.jpg"
+            "image": "../imagenes/Tragos/Coctel-Sour-Secreto-Peruano.jpg"
         },
         {
             "id": 2,
             "name": "Campanario Mango Colado",
             "price": 6990,
-            "image": "../imagenes/tragos/mango-colada.jpg"
+            "image": "../imagenes/Tragos/mango-colada.jpg"
         },
         {
             "id": 3,
             "name": "Whisky Johnnie Walker Red Label",
             "price": 12000,
-            "image": "../imagenes/Whisky-Johnnie-Walker-Red-Label.jpg"
+            "image": "../imagenes/Tragos/Whisky-Johnnie-Walker-Red-Label.jpg"
         },
         {
             "id": 4,
             "name": "Ramazzotti Aperitivo Rosato",
             "price": 9990,
-            "image": "../imagenes/tragos/Ramazzotti-Aperitivo-Rosato.jpg"
+            "image": "../imagenes/Tragos/Ramazzotti-Aperitivo-Rosato.jpg"
         },
         {
             "id": 5,
             "name": "Tequila Gran Orendain",
             "price": 19990,
-            "image": "../imagenes/tragos/Tequila-Gran-Orendain.jpg"
+            "image": "../imagenes/Tragos/Tequila-Gran-Orendain.jpg"
         },
         {
             "id": 6,
             "name": "Ron Barcelo Añejo",
             "price": 8500,
-            "image": "../imagenes/tragos/ron-barcelo-anejo.jpg"
+            "image": "../imagenes/Tragos/ron-barcelo-anejo.jpg"
         }
     ],
 
