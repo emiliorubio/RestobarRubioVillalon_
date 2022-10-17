@@ -29,8 +29,8 @@ function getProducts() {
         .then((response) => response.json())
         .then((productos) => {
             switch (types) {
-                case "aperitivo":
-                    productos = productos.aperitivo;
+                case "aperitivos":
+                    productos = productos.aperitivos;
                     break;
                 case "comida":
                     productos = productos.comida;

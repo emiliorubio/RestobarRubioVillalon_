@@ -1,15 +1,15 @@
 {
-    "aperitivo": [{
+    "aperitivos": [{
             "id": 1,
             "name": "Coctel Sour Secreto Peruano Limon 1L",
             "price": 4990,
-            "image": "../tragos/Coctel-Sour-Secreto-Peruano-Limon-1-Litro-240x240.jpg"
+            "image": "../imagenes/tragos/Coctel-Sour-Secreto-Peruano.jpg"
         },
         {
             "id": 2,
             "name": "Campanario Mango Colado",
             "price": 6990,
-            "image": "imagenes/tragos/mango-colada.jpg"
+            "image": "../imagenes/tragos/mango-colada.jpg"
         },
         {
             "id": 3,
