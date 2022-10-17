@@ -30,7 +30,7 @@ function getProducts() {
         .then((productos) => {
             switch (types) {
                 case "aperitivos":
-                    productos = productos.aperitivos;
+                    productos = productos.aperitivo;
                     break;
                 case "comida":
                     productos = productos.comida;
