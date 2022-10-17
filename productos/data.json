@@ -3,19 +3,19 @@
             "id": 1,
             "name": "Coctel Sour Secreto Peruano Limon 1L",
             "price": 4990,
-            "image": "../imagenes/tragos/Coctel-Sour-Secreto-Peruano-Limon-1-Litro-240x240.jpg"
+            "image": "../tragos/Coctel-Sour-Secreto-Peruano-Limon-1-Litro-240x240.jpg"
         },
         {
             "id": 2,
             "name": "Campanario Mango Colado",
             "price": 6990,
-            "image": "../imagenes/tragos/mango-colada.jpg"
+            "image": "imagenes/tragos/mango-colada.jpg"
         },
         {
             "id": 3,
             "name": "Whisky Johnnie Walker Red Label",
             "price": 12000,
-            "image": "../imagenes/tragos/Whisky-Johnnie-Walker-Red-Label.jpg"
+            "image": "../imagenes/Whisky-Johnnie-Walker-Red-Label.jpg"
         },
         {
             "id": 4,
