@@ -26,13 +26,14 @@
 if (responder === 'Si') {
     Swal.fire({
         title: `${responder} puedes comprar`,
+		icon:'success',
         timer: 3000,
 	    timerProgressBar:true,
     })
 } else {
     swal.fire({
     title:`No puedes comprar`,
-	icon: 'question',
+	icon: 'error',
     showConfirmButton: false,
     allowOutsideClick: false,
 	allowEscapeKey:false,
