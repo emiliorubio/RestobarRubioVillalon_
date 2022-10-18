@@ -1,31 +1,23 @@
-let nombre = document.getElementById("nombre");
-let apellido = document.getElementById("apellido");
-let mail = document.getElementById("mail");
-let number = document.getElementById("number");
-let comentario = document.getElementById("comentario");
+let response = {
+    "status":"error",
+    "status_code":409,
+    "message":"Por favor complete todos los datos y pronto nos pondremos en contacto",
+    "validations":{
+        "nombre":"The name field is required.",
+        "apellido":"The name field is required.",
+        "emailuser":"The field email user must be between 6 and 120 characters in length",
+        "number":"The number field is required."},
+    "data":null
+};
 
-let error = document.getElementById("error");
-error.style.color = "red";
-
-function enviarFormulario(){
-    console.log("enviando formulario...");
-
-    let mensajesError = [];
-    if (nombre.value === null || nombre.value === ""){
-        mensajesError.push("ingresa tu nombre");
+// Solo si hay error
+if(response.status == 'error') {
+    // Colocar mensaje en formulario
+    document.querySelector('#message-error').innerText = response.message;
+    // Recorrer validaciones por clave
+    for(let key in response.validations) {
+        // Asignar mensaje al span correspondiente
+        document.querySelector(`#${key}-error`).innerText = response.validations[key];
     }
-    if (apellido.value === null || apellido.value === ""){
-        mensajesError.push("ingresa tu apellido");
-    }
-    if (mail.value === null || mail.value === ""){
-        mensajesError.push("ingresa tu mail");
-    }
-    if (number.value === null || number.value === ""){
-        mensajesError.push("ingresa tu numero");
-    }
-    if (comentario.value === null || comentario.value === ""){
-        mensajesError.push("ingresa tu comentario");
-    }
-    error.innerHTML = mensajesError.join(", ");
-    return false;
 }
+

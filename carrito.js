@@ -117,7 +117,6 @@ function checkout() {
   localStorage.clear()
   updateShoppingCartTotal();
 }
-
 function comprarButtonClicked() {
   shoppingCartItemsContainer.innerHTML = "";
   updateShoppingCartTotal();
