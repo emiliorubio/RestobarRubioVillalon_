@@ -61,22 +61,46 @@
             "name": "Ensalada",
             "price": 4000,
             "image": "../imagenes/comidas/ensalada.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Nugget con papas fritas",
+            "price": 4000,
+            "image": "../imagenes/nugget-con-papas.jpg"
+        },
+        {
+            "id": 12,
+            "name": "promo familiar 4 hamburguesas a eleccion",
+            "price": 18000,
+            "image": "../imagenes/comida-chatarra.jpg"
+        },
+        {
+            "id": 13,
+            "name": "pizza a la piedra: (4 ingredientes maximo) jamon-queso-aceituna-champiñon-choclo-tomate-piña-pesto-churrasco-carne de cerdo-tocino ",
+            "price": 4000,
+            "image": "../imagenes/pizza-a-la-piedra.jpg"
+        },
+        {
+            "id": 14,
+            "name": "hamburguesa con papas: clasica (hamburguesa de vacuno-lechuga-tomate-palta) Barros Luco (hamburguesa de vacuno con queso)",
+            "price": 5000,
+            "image": "../imagenes/hamburguesa-con-papas.jpg"
         }
     ],
     "jugos": [{
-            "id": 11,
+            "id": 15,
             "name": "Jugo de frutilla",
             "price": 3000,
             "image": "../imagenes/jugo-de-frutilla.jpg"
         },
         {
-            "id": 12,
+            "id": 16,
             "name": "Jugo de naranja",
             "price": 3000,
             "image": "../imagenes/jugo-de-naranja.jpg"
         },
         {
-            "id": 13,
+            "id": 17,
             "name": "Jugo de piña",
             "price": 3000,
             "image": "../imagenes/jugo-de-pina.jpg"
