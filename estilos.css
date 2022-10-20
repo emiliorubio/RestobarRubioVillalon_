@@ -16,6 +16,11 @@ body {
 
 }
 
+.navbar-nav {
+  gap: 20px;
+}
+
+
 .navbar a{
   text-decoration: none;
   color: white;
@@ -60,8 +65,11 @@ body {
 .item-image {
   max-width: 250px;
   max-height: 250px;
-
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px rgb(0 0 0 / 80%);
 }
+
+
 .columna {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
@@ -98,6 +106,7 @@ body {
   transition: all .8s;
   cursor: pointer;
 }
+
 
 .icon:hover {
   background-color: #1877f2;

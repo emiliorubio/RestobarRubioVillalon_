@@ -114,11 +114,17 @@ buttonCheckout.addEventListener('click',() => checkout())
 
 function checkout() {
   shoppingCartItemsContainer.innerHTML = "";
-  localStorage.clear()
   updateShoppingCartTotal();
+  setTimeout(()=>{
+    document.location.reload()
+    },0,)
+    localStorage.clear()
 }
 function comprarButtonClicked() {
   shoppingCartItemsContainer.innerHTML = "";
   updateShoppingCartTotal();
+//   setTimeout(()=>{
+//     document.location.reload()
+// },4000,)
 
 }
