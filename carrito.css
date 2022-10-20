@@ -10,17 +10,29 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-.logo{
+
+.logo {
     max-width: 50px;
     max-height: 50px;
 
 }
-    
+
+.navbar-nav {
+    gap: 20px;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
 .logoCarrito {
     max-width: 40px;
     max-height: 40px;
 
 }
+
 .paginas a {
     margin-left: 10px;
     padding-left: 10px;
@@ -38,9 +50,6 @@ img {
     height: 150px;
 }
 
-.buscador{
-    color: white;
-}
 
 #contenedor-carrito {
     display: grid;
@@ -52,6 +61,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 25px;
 }
 
 .shopping-cart-item {
@@ -59,6 +69,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .shopping-cart-quantity {
@@ -70,22 +81,26 @@ img {
 .shopping-cart-image {
     border-radius: 10px;
     box-shadow: 3px 2px 5px rgb(0 0 0 / 80%);
-  }
+}
 
 .item-image {
     max-width: 460px;
     max-height: 460px;
     border-radius: 17px;
 }
+
 .item-title {
     color: white;
 }
+
 .item-price {
     color: white;
 }
-.buscador{
+
+.buscador {
     color: white;
 }
+
 .icon {
     position: relative;
     width: 80px;
@@ -98,18 +113,18 @@ img {
 
 .icon:hover {
     background-color: #1877f2;
-    box-shadow:  0 0 20px #1877f2 ;
+    box-shadow: 0 0 20px #1877f2;
 }
 
 .icon:hover:nth-child(2) {
     background-color: #1877f2;
-    box-shadow:  0 0 20px #1877f2;
+    box-shadow: 0 0 20px #1877f2;
 }
 
 
 .icon:hover:nth-child(4) {
     background-color: #e60073;
-    box-shadow:  0 0 20px #e60073 ;
+    box-shadow: 0 0 20px #e60073;
 }
 
 .icon i {
@@ -117,7 +132,7 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-size: 1.7rem;
 }
 

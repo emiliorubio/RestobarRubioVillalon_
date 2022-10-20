@@ -9,6 +9,15 @@ body {
     max-height: 50px;
   
   }
+  
+  .navbar-nav {
+    gap: 20px;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    color: white;
+  }
     
   .logoCarrito {
     max-width: 40px;
